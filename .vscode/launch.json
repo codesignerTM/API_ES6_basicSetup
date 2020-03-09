@@ -10,7 +10,7 @@
       "name": "Launch Program",
       "program": "${workspaceRoot}/src/bin/www",
       "stopOnEntry": false,
-      "runtimeExecutable": "babel-node",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/babel-node",
       "runtimeArgs": ["--nolazy"],
       "sourceMaps": false
       //"envFile": "${workspaceFolder}/.env",
